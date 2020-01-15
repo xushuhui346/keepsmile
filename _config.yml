@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -96,3 +96,10 @@ theme: Butterfly
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
+
+# Easy images  处理图片
+easy_images:
+  init: true # 默认 false；改为 true，将处理过去所有 post，通常装插件后第一次运行时使用。
+  # cdn_prefix: http://yourcdn.com # 默认 null; 图片前缀，在生成 html 文件时为 image 添加前缀
+  max_width: 800 # 默认 null；设置图片最大宽度
+  max_height: 800 # 默认 null；设置图片最大高度
