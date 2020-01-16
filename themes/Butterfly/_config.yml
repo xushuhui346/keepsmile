@@ -134,7 +134,7 @@ lodding_bg:
 #  post: /img/loading.gif ##加載動畫
 
 post_meta:
-  date_type: both # or created or updated 文章日期是创建日或者更新日或都显示
+  date_type: created # or created or updated 文章日期是创建日或者更新日或都显示
   categories: true # or false 是否显示分类
   tags: true # or false 是否显示标签
 
@@ -232,7 +232,7 @@ valine:
 
 #####     Footer Settings    ####
 # ------------------------------------
-since: 2019
+since: 2018
 
 footer_custom_text:
 
@@ -281,15 +281,15 @@ baidu_site_verification:
 # see http://zhanzhang.so.com/
 qihu_site_verification:
 
-# 友情鏈接界面設置
+# 友情链接界面设置
 Flink:
-  headline: 友情鏈接
-  info_headline: 我的Blog資料
+  headline: 友情链接
+  info_headline: 我的Blog资料
   name: Blog 名字： 不忘初心
   address: Blog 地址： https://xushuhui346.github.io/keepsmile
-  avatar: Blog 頭像： /img/avatar.png
-  info: Blog 簡介： 记录生活点滴，不忘初心。
-  comment: 如果需要交換友鏈,請留言
+  avatar: Blog 头像： /img/avatar.png
+  info: Blog 简介： 记录生活点滴，不忘初心。
+  comment: 如果需要交换友链,请留言
 
 # 打賞按鈕
 reward:
@@ -300,7 +300,7 @@ reward:
         text: 微信
     - itemlist:
         img: /img/alipay.jpg
-        text: 支付寶
+        text: 支付宝
 
 # 推薦文章
 related_post:
@@ -399,18 +399,8 @@ click_heart:
 ClickShowText:
   enable: false
   text:
-    - 富强
-    - 民主
-    - 文明
-    - 和谐
-    - 自由
-    - 平等
-    - 公正
-    - 法治
-    - 爱国
-    - 敬业
-    - 诚信
-    - 友善
+    - 不忘初心
+    - 方得始终
   fontSize: 15px
 
 # 頭像會一直轉圈
@@ -423,7 +413,7 @@ display_mode: light
 
 # 美化post頁顯示
 post_beautify:
-  enable: false
+  enable: true
   title-prefix-icon: '\f0c1'
   title-prefix-icon-color: "#F47466"
 
@@ -480,7 +470,7 @@ aside:
 
 # 網站公告
 announcement:
-  content: 感謝訪問本站，若喜歡請收藏 ^_^
+  content: 感谢访问本站，如果喜欢请收藏 ^_^
 
 # busuanzi count for PV / UV in site
 # 訪問人數
