@@ -23,7 +23,7 @@ archives: Archives
 
 post:
   created: Created
-  updated: Updated
+  # updated: Updated
   wordcount: Word count
   min2read: "Reading time: %s min"
   page_pv: Post View
