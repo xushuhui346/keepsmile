@@ -168,7 +168,7 @@ addThis:
 
 sharejs:
   enable: true
-  sites: facebook,twitter,wechat,weibo,qq
+  sites: wechat,weibo,qq
 
 # https://www.addtoany.com/
 addtoany:
